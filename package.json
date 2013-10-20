@@ -19,7 +19,7 @@
     }
   ],
   "scripts": {
-    "test": "grunt mochaTest";
+    "test": "grunt";
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
