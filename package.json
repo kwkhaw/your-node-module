@@ -19,7 +19,7 @@
     }
   ],
   "scripts": {
-    "test": "grunt mochaTest"
+    "test": "node_modules/mocha/bin/mocha test"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
