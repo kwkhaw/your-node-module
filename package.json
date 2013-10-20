@@ -1,0 +1,26 @@
+{
+  "name": "your-node-module",
+  "version": "0.0.0",
+  "main": "lib/your-node-module.js",
+  "description": "The best module ever.",
+  "homepage": "https://github.com/kwkhaw/your-node-module",
+  "bugs": "https://github.com/kwkhaw/your-node-module/issues",
+  "author": {
+    "name": "kkw",
+    "email": "kwkhaw@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwkhaw/your-node-module"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.0"
+  }
+}
