@@ -1,36 +1,10 @@
 'use strict';
 
-var your-node-module = require('../lib/your-node-module.js');
+var myModule = require('../lib/your-node-module.js');
+require('chai').should();
 
-/*
-  ======== A Handy Little Nodeunit Reference ========
-  https://github.com/caolan/nodeunit
-
-  Test methods:
-    test.expect(numAssertions)
-    test.done()
-  Test assertions:
-    test.ok(value, [message])
-    test.equal(actual, expected, [message])
-    test.notEqual(actual, expected, [message])
-    test.deepEqual(actual, expected, [message])
-    test.notDeepEqual(actual, expected, [message])
-    test.strictEqual(actual, expected, [message])
-    test.notStrictEqual(actual, expected, [message])
-    test.throws(block, [error], [message])
-    test.doesNotThrow(block, [error], [message])
-    test.ifError(value)
-*/
-
-exports['your-node-module'] = {
-  setUp: function(done) {
-    // setup here
-    done();
-  },
-  'no args': function(test) {
-    test.expect(1);
-    // tests here
-    test.equal(your-node-module.awesome(), 'awesome', 'should be awesome.');
-    test.done();
-  }
-};
+describe('your-node-module', function () {
+  it('should return awesome', function () {
+    myModule.awesome().should.equal('awesome');
+  });
+});

@@ -3,12 +3,7 @@
 The best module ever.
 
 ## Getting Started
-Install the module with: `npm install your-node-module`
-
-```javascript
-var your-node-module = require('your-node-module');
-your-node-module.awesome(); // "awesome"
-```
+Used by http://codrspace.com/kwkhaw/how-to-create-node-js-module-with-yeoman/ to demo how to create node.js module with yeoman.
 
 ## Documentation
 _(Coming soon)_
